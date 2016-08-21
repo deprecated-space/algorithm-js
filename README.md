@@ -1,2 +1,1 @@
-# algorithm-js
-Algorithm and Data Structure using JavaScript
+Personal collections for a quick reference when solving programming problems.
