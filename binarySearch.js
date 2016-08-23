@@ -8,7 +8,7 @@ function binarySearch(a, target) {
   var start = 0
     , end = a.length - 1;
 
-  while(start <= end) {
+  while (start <= end) {
     var mid = (start + end) >> 1;
     if (a[mid] >= target)
       end = mid - 1;
@@ -31,7 +31,7 @@ function binarySearch(a, target) {
   var start = 0
     , end = a.length - 1;
 
-  while(start <= end) {
+  while (start <= end) {
     var mid = (start + end) >> 1;
     if (a[mid] >= target)
       end = mid - 1;
@@ -54,7 +54,7 @@ function binarySearch(a, target) {
   var start = 0
     , end = a.length - 1;
 
-  while(start <= end) {
+  while (start <= end) {
     var mid = (start + end) >> 1;
     if (a[mid] >= target)
       end = mid - 1;
@@ -76,7 +76,7 @@ function binarySearch(a, target) {
   var start = 0
     , end = a.length - 1;
 
-  while(start <= end) {
+  while (start <= end) {
     var mid = (start + end) >> 1;
     if (a[mid] >= target)
       end = mid - 1;
